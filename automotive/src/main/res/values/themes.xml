@@ -1,4 +1,4 @@
 <resources>
 
-    <style name="Theme.Androidcartube" parent="android:Theme.Material.Light.DarkActionBar" />
+    <style name="Theme.AndroidCarTube" parent="android:Theme.Material.Light.DarkActionBar" />
 </resources>
