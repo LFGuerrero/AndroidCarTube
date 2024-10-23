@@ -1,4 +1,4 @@
-package com.example.androidcartube
+package com.example.androidcartube.view
 
 import android.content.Context
 import android.content.Intent
