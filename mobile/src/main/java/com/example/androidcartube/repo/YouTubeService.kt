@@ -1,5 +1,6 @@
 package com.example.androidcartube.repo
 
+import com.example.androidcartube.base.AssetsHelper.getApiKey
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
@@ -13,8 +14,10 @@ class YouTubeService {
 
         val youtubeApiService = retrofit.create(YouTubeApiService::class.java)
 
-        val response = youtubeApiService.getMostPopularVideos()
+        val response = youtubeApiService.getMostPopularVideos(apiKey = getApiKey())
 
         return response
     }
+
+
 }

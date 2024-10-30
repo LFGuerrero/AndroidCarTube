@@ -10,6 +10,6 @@ interface YouTubeApiService {
         @Query("chart") chart: String = "mostPopular",
         @Query("regionCode") regionCode: String = "BR",
         @Query("maxResults") maxResults: String = "5",
-        @Query("key") apiKey: String = "AIzaSyCVgE3Rc7HIJJC51LTm3wMMVJeus2gM5vM"
+        @Query("key") apiKey: String
     ): YouTubeResponse
 }
