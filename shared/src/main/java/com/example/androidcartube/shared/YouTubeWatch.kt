@@ -1,10 +1,10 @@
-package com.example.androidcartube.view
+package com.example.androidcartube.shared
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.androidcartube.databinding.ActivityWatchBinding
+import com.example.androidcartube.shared.databinding.ActivityWatchBinding
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView

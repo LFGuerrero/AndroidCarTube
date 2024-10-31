@@ -9,6 +9,7 @@ import com.example.androidcartube.OnVideoClickListener
 import com.example.androidcartube.VideoListAdapter
 import com.example.androidcartube.databinding.ActivityMainBinding
 import com.example.androidcartube.repo.YouTubeResponse
+import com.example.androidcartube.shared.YouTubeWatch
 import com.example.androidcartube.viewmodel.YouTubeViewModel
 
 class MainActivity : AppCompatActivity(), OnVideoClickListener {
@@ -63,4 +64,3 @@ class MainActivity : AppCompatActivity(), OnVideoClickListener {
         startActivity(YouTubeWatch.newInstance(this, videoId))
     }
 }
-//AIzaSyCVgE3Rc7HIJJC51LTm3wMMVJeus2gM5vM
